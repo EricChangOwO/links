@@ -17,7 +17,7 @@ p{
     margin: 30px;
 } */
 header {
-    background-color: rgba(35,28,26,0.8);
+    background-color: rgba(35, 28, 26, 0);
     height: 80px;
     width: 100%;
     /* position: fixed; */
@@ -26,7 +26,7 @@ header {
     color: white;
 } */
 header a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 header a:hover{
@@ -43,7 +43,7 @@ header ul{
     line-height: 80px;
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
     left: 120px;
     top: 0;
@@ -81,8 +81,14 @@ h1{
     color:#000000;
 }
 
+.one b{
+    color:#252525;
+    font-size:22px;
+    margin: 25px 0;
+}
+
 .one p{
-    color:#FEF7E6;
+    color:#252525;
     font-size:18px;
     margin: 25px 0;
 }
